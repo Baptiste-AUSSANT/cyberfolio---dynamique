@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="whttps://prod.liveshare.vsengsaas.visualstudio.com/join?F71BE7B42974597BA488FFBD3C042B53C88Fidth=device-width, initial-scale=1.0">
-    <title>Cyberfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <title>Cyberfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
@@ -27,14 +27,32 @@
         <nav>
             <a href="#about">À Propos</a>
             <a href="#projets">Projets</a>
-            <a href="#contact"><i class="fa-solid fa-square-arrow-up-right"></i>&nbsp;&nbsp;&nbsp;Contact</a>
+            <a href="contact.html"><i class="fa-solid fa-square-arrow-up-right"></i>&nbsp;&nbsp;&nbsp;Contact</a>
         </nav>
     </header>
+
+    <div class="about" id="about">
+        <div>
+            <p>Développeur Full Stack, diplômé en ingénierie logicielle de Flatiron School (New York), j'ai acquis une solide expertise en programmation, architecture logicielle et gestion de projet. J'ai eu l'occasion de travailler sur des projets variés dans des secteurs tels que l’e-commerce, la finance et la santé. Mon expérience inclut la conception d'interfaces utilisateur dynamiques, le développement d'API performantes et la mise en place d'architectures back-end fiables.</p>
+        <br>
+                <ul><strong>Compétences :</strong>
+                    <li><strong>Langages :</strong> JavaScript, Python, Ruby, SQL</li>
+                    <li><strong>Front-End :</strong> React, Vue.js, HTML/CSS, Bootstrap</li>
+                    <li><strong>Back-End :</strong> Node.js, Ruby on Rails, Django, Express.js</li>
+                    <li><strong>Base de données :</strong> PostgreSQL, MongoDB</li>
+                    <li><strong>Outils :</strong> Git, Docker, Webpack, CI/CD</li>
+                    <li><strong>Méthodologies :</strong> Agile, Scrum, gestion de projet</li>
+                </ul>
+        <br>
+                <p>Passionné par les nouvelles technologies, je cherche à allier compétences techniques et sens du relationnel pour apporter une réelle valeur ajoutée à chaque projet.</p>
+        </div>
+        
+    </div>
 
     <div class="projets" id="projets">
         <div class="card">
             <div class="card-content">
-                <img src="image/e-commerce.jpg" alt="Logo Canvas Supply" class="card-logo">
+                <img src="image/e-commerce.jpg" class="card-logo">
                 <div class="card-text">
                     <h3 class="card-title">Plateforme e-commerce</h3>
                     <p class="card-description">Plateforme e-commerce pour parcourir, ajouter au panier et commander de
@@ -42,24 +60,24 @@
                     </p>
                 </div>
             </div>
-            <a href="#">Voir</a>
+            <a href="Plateforme-e-commerce.html">Voir</a>
         </div>
 
         <div class="card">
             <div class="card-content">
-                <img src="image/app-gestion-tache.jpg" alt="Logo DashFolio" class="card-logo">
+                <img src="image/app-gestion-tache.jpg" class="card-logo">
                 <div class="card-text">
                     <h3 class="card-title">App. de gestion de tâches collaboratives</h3>
                     <p class="card-description">Application web collaborative pour suivre et organiser les projets
                         d’équipe.</p>
                 </div>
             </div>
-            <a href="#">Voir</a>
+            <a href="app-gestion.html">Voir</a>
         </div>
 
         <div class="card">
             <div class="card-content">
-                <img src="image/plat-social-media.jpg" alt="Logo Godlike" class="card-logo">
+                <img src="image/plat-social-media.jpg" class="card-logo">
                 <div class="card-text">
                     <h3 class="card-title">Plateforme de réseau social</h3>
                     <p class="card-description">Réseau social permettant aux utilisateurs de se connecter, partager du
@@ -68,52 +86,29 @@
             </div>
             <a href="#">Voir</a>
         </div>
+
+        <div class="card">
+            <div class="card-content">
+                <img src="image/book-nook.jpg" class="card-logo">
+                <div class="card-text">
+                    <h3 class="card-title">Book Nook</h3>
+                    <p class="card-description">Gestionnaire de bibliothèque en ligne pour lecteurs.</p>
+                </div>
+            </div>
+            <a href="#">Voir</a>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <img src="image/artspace.jpg" class="card-logo">
+                <div class="card-text">
+                    <h3 class="card-title">ArtSpace</h3>
+                    <p class="card-description">Galerie en ligne pour artistes et collectionneurs.</p>
+                </div>
+            </div>
+            <a href="#">Voir</a>
+        </div>
     </div>
-
-
-    <!-- <div id="corpus">
-
-            <section id="haut" class="style haut">
-                <h1>Cyberfolio</h1>
-                <p>Découvrez les différents projets réalisés par un développeur web Full Stack à Paris</p>
-            </section>
-
-            <section id="one" class="style1">
-                <h2>Un développeur web Full Stack engagé et compétent pour vos projets</h2>
-                <p>BLABLABLABLABLA</p>
-            </section>
-
-            <section id="two" class="style2">
-                <h2>Projet n°1</h2>
-                <p>Création d'une plateforme de e-commerce avec gestion d'inventaire</p>
-            </section>
-
-            <section id="three" class="style3">
-                <h2>Projet n°2</h2>
-                <p>BLABLABLABLABLA</p>
-            </section>
-
-            <section id="four" class="style4">
-                <h2>Les principales compétences mobilisées lors de mes projets</h2>
-                <h3>Compétence 1</h3>
-                <p>explication de la compétence</p>
-
-                <h3>Compétence 2</h3>
-                <p>explication de la compétence</p>
-
-                <h3>Compétence 3</h3>
-                <p>explication de la compétence</p>
-
-                <h3>Compétence 4</h3>
-                <p>explication de la compétence</p>
-
-                <h3>Compétence 5</h3>
-                <p>explication de la compétence</p>
-
-                <h3>Compétence 6</h3>
-                <p>explication de la compétence</p>
-            </section>
-        </div> -->
 
     <footer>
         <p class="copyright">&copy; Baptiste AUSSANT, Adel BOUSLAMA, Alessandro PATTI, Elisabeth RIVIÈRE</p>
