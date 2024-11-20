@@ -1,0 +1,26 @@
+.projets {
+    margin: 50px;
+    position: relative;
+width: 500px;
+
+text-align:center
+
+
+}
+
+.projets b {
+color: chartreuse;
+
+
+}
+
+
+
+
+.projets h2 {
+    position:relative;
+    display:flex;
+    color:aquamarine;
+    padding:50px;
+
+}
