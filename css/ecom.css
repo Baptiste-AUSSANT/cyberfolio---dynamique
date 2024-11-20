@@ -8,5 +8,21 @@
 }
 
 .h2 {
+    color: aqua;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    width: 75%;
+    margin: 0 auto;
+}
 
+.prezcom {
+    
+}
+
+.droite {
+    background-color: #1e1e1e;
+}
+
+.imgcomm1 {
+    background-color: #1e1e1e;
 }

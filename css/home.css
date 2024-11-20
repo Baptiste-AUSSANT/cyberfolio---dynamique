@@ -166,15 +166,12 @@
             }
             @media screen and (max-width: 430px) {
                 .card {
-                    height: 150px;
+                    height: 170px;
                 }
-        
-                .card-title {
-                    font-size: 10px;
-                }
-        
-                .card-description {
-                    font-size: 8px;
+
+                .card-text {
+                    width: auto;
+                    margin-bottom: 10px;
                 }
             }
         }
