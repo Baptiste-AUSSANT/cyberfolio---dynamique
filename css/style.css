@@ -105,3 +105,9 @@ header nav a:active {
 .copyright a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 460px) {
+    .copyright {
+        font-size: 8px;
+    }
+}
