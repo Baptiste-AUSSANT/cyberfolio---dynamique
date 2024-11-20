@@ -1,0 +1,73 @@
+.h1 {
+    color: aquamarine;
+    text-align: center;
+    /*On donne une certaine distance en haut*/
+    padding-top: 5%;
+    /*On donne une certaine distance en bas*/
+    padding-bottom: 5%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.h2 {
+    color: aqua;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.prezecom {
+    position: relative;
+    align-items: center;
+    height: 500px;
+    width: auto;
+    /*On indique le nombre de colonnes que l'on souhaite sur la partie prezecom*/
+    column-count: 2;
+    column-fill: balance;
+    text-align: center;
+    right: 50px;
+}
+
+.prezecom div {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+img {
+    /*On donne la hauteur max de l'image. Il est possible que l'image fasse moins du coup*/
+    max-height: 500px;
+    /*On définit la valeur de la largeur sur auto pour mieux s'adapter à la hauteur*/
+    width: auto;
+    border-radius: 10px;
+}
+
+.exprojet {
+    position: relative;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    /*On indique le nombre de colonnes que l'on souhaite sur la partie exprojet*/
+    column-count: 2;
+    /*On définit la méthode de remplissage des colonnes*/
+    column-fill: auto;
+    text-align: center;
+    left: 50px;
+}
+
+.exprojet div {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.copyright {
+    /*On donne une certaine distance entre le dernier paragraphe et le début du copyright*/
+    padding-top: 50px;
+}
+
+b {
+    color: aquamarine;
+}
