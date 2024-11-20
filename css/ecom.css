@@ -1,47 +1,12 @@
-.h1 {
+.h1{
+    color: aquamarine;
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 3%;
-    width: 1000px;
+    padding-bottom: 5%;
+    width: 75%;
     margin: 0 auto;
-    color: aquamarine;
 }
 
 .h2 {
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 1400px;
-    margin: 0 auto;
-}
 
-.prezcom {
-    position: absolute;
-    border: 2px solid #1e1e1e;
-    padding: 20px 10px;
-    display: flex;
-}
-
-.imgcomm1 {
-    position: relative;
-    padding-left: 5%;
-    width: 500px;
-    height: 500px;
-    border-radius: 8px;
-}
-
-.exprojet {
-    position: absolute;
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 20px auto;
-    gap: 20px;
-}
-
-.imgcomm2 {
-    position: relative;
-    padding-left: 69%;
-    width: 500px;
-    height: 500px;
-    border-radius: 8px;
 }
