@@ -34,7 +34,7 @@ require_once(__DIR__ . '/fonction.php');
         <nav>
             <a href="index.php">Accueil</a>
             <a href="index.php#projets">Projets</a>
-            <a href="contact.html"><i class="fa-solid fa-square-arrow-up-right"></i>&nbsp;&nbsp;&nbsp;Contact</a>
+            <a href="contact.php"><i class="fa-solid fa-square-arrow-up-right"></i>&nbsp;&nbsp;&nbsp;Contact</a>
         </nav>
     </header>
 
